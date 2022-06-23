@@ -1,0 +1,455 @@
+/* yellow #FDC62A 
+blue #0A4F98*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo{
+    width: 50px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    color: #0A4F98;
+}
+.navbar-brand strong{
+    color: #FDC62A;
+}
+.btn-outline-success{
+    color: #FDC62A;
+    border-color: #FDC62A;
+}
+.btn-outline-success:hover {
+    box-shadow: 0 0 0 0.25rem #e7bc48;
+}
+.decouvrez{
+    text-decoration: none;  
+    color: white;
+}
+.btnyl:hover {
+    background-color: #FDC62A;
+}
+.btn:hover{
+    border: #FDC62A;
+}
+.bigsection{
+    display:flex ;
+}
+.colleft{
+    padding: 100px;
+    padding-bottom: 0px;
+    background-color: #0A0442;
+    width: 50%;
+    color: white;
+}
+
+@media only screen and (max-width: 420px) {
+    .d-flex {
+      color: white;
+    }
+  }
+@media only screen and (max-width: 420px) {
+    .colleft {
+      margin-bottom: 500px;
+      width: 100%;
+      padding: 40px;
+    }
+  }
+.colleft strong{
+    color: #e7bc48;
+}
+.colright{
+    background-image: url("assets/rh.png");
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+}
+@media only screen and (max-width: 420px) {
+    .colright {
+      position: absolute;
+      width: 100%;
+      margin-top: 300px;
+    }
+  }
+.navbar{
+    height: 66px;
+}
+.btnyl{
+    padding: 5px 30px 5px 30px;
+    background-color: #DF9704;
+    border-radius: 1px;
+    color: white;
+}
+.btnbl{
+    margin-left: 20px;
+    padding: 5px 30px 5px 30px;
+    background-color: #0A4F98;
+    border-radius: 1px;
+    color: white;
+}
+.headhr{
+    margin-top: 120px;
+}
+@media screen and (max-width: 420px) {
+    .headhr{
+        width: 300px
+    }
+  } 
+/*------------------Firstsection-----------------*/ 
+.firstsc{
+    padding-bottom: 80Px ;
+}
+.firstsc h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.firstsc h1{
+    padding: 50px;
+    color: #2C2292;
+}
+.firstsc p{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 420px) {
+    .firstsc p{
+        padding: 15px;
+      font-size: 15px;
+    }
+  }
+.colleft h1 {
+    animation: fadeInLeft 2s ease-in-out;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+  
+    to {
+     opacity: 1;
+    }
+}
+.bd{
+    width: 300px;
+    padding-left: 80px;
+}
+.bienp{
+    text-align: center;
+}
+/*------------------Secondsection-----------------*/ 
+.colleft2{
+    padding: 65px 0px 0px 50px;
+    height: 700px;
+    width: 50%;
+    background-image: url("assets/bluebg.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.prpic{
+    width: 500px;
+}
+
+@media screen and (max-width: 420px) {
+    .prpic{
+        width: 290px
+    }
+  }
+@media screen and (max-width: 420px) {
+    .colleft2{
+        background-position-x: -200px;
+        padding: 15px 0px 0px 80px;
+        width: 100%;
+        position: absolute;
+        height: 300px;
+    }
+  }
+
+.colright2{
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+    padding: 50px 0px 100px 70px;
+}
+
+@media screen and (max-width: 420px) {
+    .colright2{
+        width: 100%;
+        margin-top: 350px;
+        padding: 10px 10px 20px 10px;
+        text-align: center;
+        justify-content: center;
+    }
+  }
+.colright2 h3{
+    color: #2F2291;
+}
+.colright2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+@media screen and (max-width: 420px) {
+    .colright2 P{
+        font-size: 15px;
+    }
+  }
+a{
+    color: #000;
+}
+.aaa{
+    text-align: center;
+    text-decoration: underline;
+}
+hr{
+    width: 450px;
+    border: 1px;
+    border: 1px solid white;
+    opacity: 100%;
+}
+@media screen and (max-width: 420px) {
+    hr{
+        width: 400px;
+    }
+  }
+.bootdiv{
+    display: flex;
+}
+.bootdivlf{
+    display: flex;
+    border-right: 2px solid black;
+}
+.bootdivlf h1{
+    padding-right: 20PX;
+    color: #2C2292;
+}
+.bootdivlf h2{
+    padding-right: 20PX;
+}
+@media screen and (max-width: 420px) {
+    .bootdivlf h2{
+        padding-right: 50px;
+        font-size: 30px;
+        text-align: left;
+    }
+  }
+.bootdivri h1{
+    font-size: 80px;
+    padding-right: 20PX;
+    color: #2C2292;
+}
+.bootdivri{
+    display: flex;
+    padding-left: 40px;
+}
+@media screen and (max-width: 420px) {
+    .bootdivri {
+        padding-left: 10px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .rmore {
+        margin-left: 300px;
+    }
+  }
+@media screen and (max-width: 420px) {
+    .bootdivri h2{
+        font-size: 30px;
+        text-align: left;
+    }
+  }
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .ab h1 {
+    animation: counter 5s infinite alternate ease-in-out;
+    counter-reset : num var(--num);
+    font: 800 60px system-ui;
+  }
+  .ab h1::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 8;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .ab h1{
+        padding-right: 20px;
+        font-size: 40px;
+    }
+  }
+/* fourthsection */
+.signdiv{
+    margin-top: 100px;
+    height: 400px;
+    background-image: url("assets/signpic.png");
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+@media screen and (max-width: 420px) {
+    .colright5{
+        margin-top: 30px;
+    }
+  }
+  .signdiv h2{
+      font-size: 100px;
+      margin-bottom: -50px;
+}.colright5{
+    padding: 50px 50px 0px 0px;
+    height: 800px;
+    width: 50%;
+    background-image: url("assets/bluebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 200px;
+}
+.clpic5{
+    width: 550px;
+  }
+
+@media screen and (max-width: 420px) {
+    .clpic5{
+        width: 420px
+    }
+  } 
+@media screen and (max-width: 420px) {
+    .colright5{
+        background: none;
+        width: 100%;
+        position: absolute;
+        height: 300px;
+    }
+  }
+@media screen and (max-width: 420px) {
+    .colright5{
+        position: absolute;
+        margin-top: 800px;
+    }
+  }
+.colleft5{
+    background-size: cover;
+    height: 515px;
+    width: 50%;
+    padding: 120px 0px 100px 70px;
+}
+@media screen and (max-width: 420px) {
+    .colleft5{
+        padding: 0px 0px 100px 45px;
+        width: 100%;
+    }
+  }
+.colleft5 h1{
+    font-size: 70px;
+    text-align: left;
+}
+@media screen and (max-width: 420px) {
+    .colleft5 h1{
+        font-size: 40px;
+    }
+  }
+.colleft5 h3{
+    color: #2F2291;
+}
+.colleft5 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    text-align: left;
+}
+.bootdivlf2{
+    display: flex;
+    border-right: 2px solid black;
+}
+.bigsection2 {
+    display: flex;
+}
+
+@media screen and (max-width: 420px) {
+    .colright5{
+        position: absolute;
+        margin-top: 530px;
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .bigsection2 hr{
+        width: 350px;
+    }
+  }
+
+.bootdivlf2 h1{
+    font-family: 'Audiowide';
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 20PX;
+}
+@media screen and (max-width: 420px) {
+    .bootdivlf2 h1{
+        font-size: 32px;
+    }
+  }
+.bootdivri2 h1{
+    font-size: 60px;
+    padding-right: 20PX;
+}
+.bootdivri2{
+    padding-left: 40px;
+}.bootdivri2 p{
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+}
+.card{
+    margin: 40px;
+    height: 280px;
+    background-image: url("assets/turfbg.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 5px 6px 4px #0000003c;
+}
+
+.card-img-top{
+    width: 80%;
+}
+.textcard h3{
+    font-size: 30px;
+    color: white;
+}
+.textcard p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.688);
+}
+.d-flex{
+    margin-left: 8px ;
+    margin-top: 80px;
+    height: 200px; 
+    width: 5px;
+    color: rgb(255, 255, 255); 
+    position: absolute;
+}
+.card-title{
+    margin-bottom: -2px;
+}
+.boot{
+    margin-top: -10px ;
+    width: 250px;
+}
+.row{
+    width: 100%;
+    padding-left: 0;
+}

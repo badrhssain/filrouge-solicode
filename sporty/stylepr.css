@@ -1,0 +1,86 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo{
+    width: 50px;
+}
+.btnfiltre {
+    border: 1px solid;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+}
+.filtrediv{
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.all{
+    background-color: #2C2292;
+    color: white;
+}
+.headerpic{
+    padding: 70px;
+    background-image: url("assets/probg.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.card{
+    margin: 40px;
+    height: 280px;
+    background-image: url("assets/turfbg.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 5px 6px 4px #0000003c;
+}
+.headh1{
+    font-size: 70px;
+    color: rgba(255, 0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff;
+margin-bottom: 0px;
+}
+.headh2{
+    margin-top: -40px;
+    color: #fff;
+    font-size: 70px;
+}
+
+
+.card-img-top{
+    width: 80%;
+}
+.textcard h3{
+    font-size: 30px;
+    color: white;
+}
+.textcard p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.688);
+}
+.d-flex{
+    margin-left: 8px ;
+    margin-top: 80px;
+    height: 200px; 
+    width: 5px;
+    color: rgb(255, 255, 255); 
+    position: absolute;
+}
+.card-title{
+    margin-bottom: -2px;
+}
+.boot{
+    margin-top: -10px ;
+    width: 250px;
+}
+.row{
+    width: 100%;
+    padding-left: 0;
+}
+.addiv{
+    background-image: url("assets/nikead.png");
+    background-size: cover;
+    background-position: center;
+    height:180px ;
+}

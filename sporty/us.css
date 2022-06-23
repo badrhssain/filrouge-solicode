@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.header{
+    height: 300px;
+    background-image: url("assets/usbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.bigdiv{
+    display: flex;
+    margin-top: 100px;
+}
+.leftdiv{
+    z-index: 1;
+width: 50%;
+padding-left: 50px;
+padding-top: 60px;
+font-size: 25px;
+text-align: center;
+}
+.unscreen{ 
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    z-index: 1;
+}
+strong{
+    color: #FDC62A;
+}
+
+.strap{
+    position: absolute;
+    width: 1210px;
+    margin-top: -680px;
+    margin-bottom: 800px;
+}
+img{
+    width: 400px;
+}
+.rightdiv{
+    width: 50%;
+    padding-left: 100px;
+}
+.socialmedia{
+    display: flex;
+    margin-top: 40px;
+}
+.socialmedia img{
+    width: 200px;
+}.facebook{
+    margin-left: 80px;
+    margin-right: 30px;
+}
+.header h1{
+
+    padding: 100px;
+    padding-left: 450px;
+    color: white;
+    font-size: 80px;
+}

@@ -1,0 +1,57 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    padding: 50px;
+    padding: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: url("assets/cnt.png");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-weight: bold;
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    margin-left: 400px;
+    margin-top: -100px;
+    transform: rotate(-15deg)
+}
+.littlelogin{
+background-color: white;
+padding-top: 50px;
+text-align: center;
+height: 450px;
+border-radius: 20px;
+box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.292);
+background-image: url("assets/page.png");
+background-position-x: 540px;
+background-position-y: 75px;
+background-size: 500px;
+background-repeat: no-repeat;
+}
+input{
+    border-color: 4px #2F2291;
+    padding-right: 180px ;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+p{
+    margin-left: 160px;
+}
+.btn{
+    margin-top: 30px;
+    background-color: #2F2291;
+    color: white;
+    padding-right: 180px;
+    padding-left: 180px;
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

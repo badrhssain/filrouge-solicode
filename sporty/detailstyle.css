@@ -1,0 +1,92 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo{
+    width: 70px;
+}
+.bigdiv{
+    border-radius: 20px;
+    display: flex;
+    padding: 70px;
+}
+.boot{
+    width: 300px;
+}
+.leftdiv{
+    padding-right: 80px;
+    width: 65%;
+    text-align: center;
+}
+main{
+    padding: 50px;
+}
+.row{
+    display: flex;
+}
+.green{
+    background-color: #235F4C;
+}
+.yellow{
+    background-color: #FDC62A;
+}
+.gray{
+    background-color: gray;
+}
+.z{
+    margin-right: 5px;
+    padding: 25px 20px 0px 0px;
+}
+.size{
+    margin-top: 2px;
+    border-radius: 0px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid;
+}
+h2{
+    margin-bottom: 0px;
+}
+
+.wrapper{
+    height: 25px;
+    width: 80px;
+    display: flex;
+  }
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.wrapper span.num{
+    font-size: 20px;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+.deliveryicon{
+    margin-right: 10px;
+    background-color: #2F2291;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50px;
+}
+.deliveryicon img{
+    width: 20px;
+}
+.txt{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.delivery{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btn1{
+    padding: 5px 50px 5px 50px;
+    background-color: #2F2291;
+    color: white;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    padding: 50px;
+    padding: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: url("assets/cnt.png");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.boot{
+    position: absolute;
+    width: 600px;
+    margin-left: -200px;
+}
+.littlelogin{
+display: flex;
+background-color: white;
+height: 450px;
+border-radius: 20px;
+box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.292);
+}
+input{
+    border-color: 4px #2F2291;
+    padding: 0px 180px 0px 10px;
+}
+p{
+    margin-left: 185px;
+}
+.btn{
+    margin-top: 10px;
+    background-color: #2F2291;
+    color: white;
+    padding: 0px 144px 0px 144px;
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.leftside{
+    background-image: url("assets/recttanglebg.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-y: 350px;
+    padding-top: 30px;
+    padding-left: 80px;
+    width: 75%;
+}
+.rightside{
+    width: 30%;
+    background-color: #2F2291;
+    border-radius: 0px 22px 22px 0px;
+}
+label{
+    font-size: 15px;
+}
+
+.alert{
+    height: 30px;
+    padding-top: 3px ;
+    padding-bottom: 5px ;
+}
